@@ -1,0 +1,73 @@
+{
+  "id": 1763588569,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation": "..",
+    "edtf:inception": "",
+    "geom:area": 1.2100806810014738e-7,
+    "geom:bbox": "-122.390362,37.616410,-122.388862,37.616846",
+    "geom:latitude": 37.61662827910063,
+    "geom:longitude": -122.38961111890103,
+    "mps:latitude": -122.3896102141925,
+    "mps:longitude": 37.61662844977583,
+    "mz:is_current": 1,
+    "sfo:id": "179",
+    "sfo:level": 4,
+    "sfo:parent_id": "100",
+    "sfomuseum:key": "179",
+    "sfomuseum:name": "International Terminal (A) AirTrain Station",
+    "sfomuseum:placetype": "airtrain",
+    "src:geom": "sfomuseum",
+    "wof:alt_placetype": [
+      "airtrain"
+    ],
+    "wof:belongsto": [
+      102527513,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      102085387
+    ],
+    "wof:country": "US",
+    "wof:created": 1650931149,
+    "wof:geomhash": "eeed09fb797c3dcb353940bf7744fae3",
+    "wof:hierarchy": [
+      {
+        "campus_id": 102527513,
+        "continent_id": 102191575,
+        "country_id": 85633793,
+        "county_id": 102087579,
+        "custom_id": 1763588569,
+        "locality_id": 85922583,
+        "postalcode_id": 554784711,
+        "region_id": 85688637
+      },
+      {
+        "campus_id": 102527513,
+        "continent_id": 102191575,
+        "country_id": 85633793,
+        "county_id": 102085387,
+        "custom_id": 1763588569,
+        "region_id": 85688637
+      }
+    ],
+    "wof:id": 1763588569,
+    "wof:lastmodified": 1650931149,
+    "wof:name": "International Terminal (A) AirTrain Station",
+    "wof:parent_id": 102527513,
+    "wof:placetype": "custom",
+    "wof:repo": "sfomuseum-data-architecture",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.39036157790274,
+    37.61640962950492,
+    -122.38886204463715,
+    37.6168464851033
+  ],
+  "geometry": {"coordinates":[[[-122.39004867169376,37.61647940271735],[-122.38886204463715,37.61677126509932],[-122.3888912834935,37.6168464851033],[-122.39036157790274,37.616484845497816],[-122.390332339128,37.61640962950492],[-122.39017951094301,37.616447220942725],[-122.39018061716398,37.61645006708155],[-122.3901505872707,37.616457453114315],[-122.39015010680404,37.616457571458646],[-122.3901490005842,37.61645472531951],[-122.39013773062032,37.61645749790252],[-122.39013802958952,37.6164582659419],[-122.39006477641507,37.6164762843071],[-122.39006447644456,37.616475515847455],[-122.39004867169376,37.61647940271735]]],"type":"Polygon"}
+}

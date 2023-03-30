@@ -1,0 +1,103 @@
+{
+  "id": 1477855661,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2015-01-20",
+    "date:inception_upper": "2015-01-20",
+    "edtf:cessation": "",
+    "edtf:deprecated": "2021-02-25",
+    "edtf:inception": "2015-01-20",
+    "geom:area": 5.7355375901178056e-8,
+    "geom:area_square_m": 561.784265,
+    "geom:bbox": "-122.384291,37.615300,-122.383952,37.615616",
+    "geom:latitude": 37.61545711615287,
+    "geom:longitude": -122.3841194237983,
+    "iso:country": "US",
+    "millsfield:wayfinding_detail": "",
+    "millsfield:wayfinding_kind": "",
+    "mz:hierarchy_label": 1,
+    "mz:is_current": 0,
+    "name:eng_x_preferred": [
+      "C-04 Entrance Lobby C Meet and Greet"
+    ],
+    "name:eng_x_variant": [
+      "C-04",
+      "C04"
+    ],
+    "sfo:level": 2,
+    "sfomuseum:gallery_id": 63,
+    "sfomuseum:is_sfo": 1,
+    "sfomuseum:level": "D",
+    "sfomuseum:location": "D",
+    "sfomuseum:map_id": "C04",
+    "sfomuseum:placetype": "gallery",
+    "sfomuseum:post_security": 0,
+    "src:geom": "sfomuseum",
+    "wof:belongsto": [
+      102527513,
+      85688637,
+      102191575,
+      85633793,
+      85922583,
+      102087579,
+      1477855605,
+      1477855657,
+      554784711,
+      102085387
+    ],
+    "wof:breaches": [],
+    "wof:controlled": [
+      "wof:parent_id",
+      "wof:hierarchy"
+    ],
+    "wof:country": "US",
+    "wof:created": 1522859223,
+    "wof:geomhash": "d74820c38d626b8dbacc98a1134c022c",
+    "wof:hierarchy": [
+      {
+        "building_id": 1477855605,
+        "campus_id": 102527513,
+        "continent_id": 102191575,
+        "country_id": 85633793,
+        "county_id": 102087579,
+        "enclosure_id": 1477855661,
+        "locality_id": 85922583,
+        "postalcode_id": 554784711,
+        "region_id": 85688637,
+        "wing_id": 1477855657
+      },
+      {
+        "building_id": 1477855605,
+        "campus_id": 102527513,
+        "continent_id": 102191575,
+        "country_id": 85633793,
+        "county_id": 102085387,
+        "enclosure_id": 1477855661,
+        "region_id": 85688637,
+        "wing_id": 1477855657
+      }
+    ],
+    "wof:id": 1477855661,
+    "wof:label": "C-04 Entrance Lobby C Meet and Greet (2019)",
+    "wof:lastmodified": 1672882086,
+    "wof:name": "C-04 Entrance Lobby C Meet and Greet",
+    "wof:parent_id": 1477855657,
+    "wof:placetype": "enclosure",
+    "wof:placetype_alt": [
+      "gallery"
+    ],
+    "wof:repo": "sfomuseum-data-architecture",
+    "wof:superseded_by": [
+      1360516207
+    ],
+    "wof:supersedes": [],
+    "wof:tags": []
+  },
+  "bbox": [
+    -122.38429078899998,
+    37.61529954600002,
+    -122.38395197900002,
+    37.61561625899998
+  ],
+  "geometry": {"coordinates":[[[-122.38413979799998,37.61561625899998],[-122.38429078899998,37.61538056500001],[-122.38409192199998,37.61529954600002],[-122.38395197900002,37.615535239999986],[-122.38413979799998,37.61561625899998]]],"type":"Polygon"}
+}

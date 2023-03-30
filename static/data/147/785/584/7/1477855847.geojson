@@ -1,0 +1,59 @@
+{
+  "id": 1477855847,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation": "",
+    "edtf:deprecated": "2021-01-29",
+    "edtf:inception": "",
+    "faa:latitude": 37.613597,
+    "faa:longitude": -122.388368,
+    "flysfo:gate_code": "A3A",
+    "geom:area": 0,
+    "geom:area_square_m": 0,
+    "geom:bbox": "-122.388368,37.613597,-122.388368,37.613597",
+    "geom:latitude": 37.61359701762071,
+    "geom:longitude": -122.38836825020307,
+    "iso:country": "US",
+    "mz:hierarchy_label": 1,
+    "mz:is_current": 0,
+    "sfomuseum:is_sfo": 1,
+    "sfomuseum:placetype": "gate",
+    "sfomuseum:post_security": 1,
+    "src:geom": "sfomuseum",
+    "wof:belongsto": [],
+    "wof:breaches": [],
+    "wof:controlled": [
+      "wof:hierarchy"
+    ],
+    "wof:country": "US",
+    "wof:created": 1522881123,
+    "wof:geomhash": "13dcb25845ebfa49665a7a58acfe3856",
+    "wof:hierarchy": [
+      {
+        "venue_id": 1477855847
+      }
+    ],
+    "wof:id": 1477855847,
+    "wof:label": "A3A (2019)",
+    "wof:lastmodified": 1672878184,
+    "wof:name": "A3A",
+    "wof:parent_id": -1,
+    "wof:placetype": "venue",
+    "wof:placetype_alt": [
+      "gate"
+    ],
+    "wof:repo": "sfomuseum-data-architecture",
+    "wof:superseded_by": [
+      1477930283
+    ],
+    "wof:supersedes": [],
+    "wof:tags": []
+  },
+  "bbox": [
+    -122.38836825020307,
+    37.61359701762071,
+    -122.38836825020307,
+    37.61359701762071
+  ],
+  "geometry": {"coordinates":[-122.38836825020307,37.61359701762071],"type":"Point"}
+}

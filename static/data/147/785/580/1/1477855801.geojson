@@ -1,0 +1,64 @@
+{
+  "id": 1477855801,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation": "",
+    "edtf:deprecated": "2021-01-29",
+    "edtf:inception": "",
+    "faa:latitude": 37.619696,
+    "faa:longitude": -122.384462,
+    "flysfo:gate_code": "66",
+    "geom:area": 0,
+    "geom:area_square_m": 0,
+    "geom:bbox": "-122.384262,37.619531,-122.384262,37.619531",
+    "geom:latitude": 37.61953130100005,
+    "geom:longitude": -122.38426247599995,
+    "iso:country": "US",
+    "lbl:latitude": 37.619531,
+    "lbl:longitude": -122.384262,
+    "mz:hierarchy_label": 1,
+    "mz:is_current": 0,
+    "sfomuseum:is_sfo": 1,
+    "sfomuseum:placetype": "gate",
+    "sfomuseum:post_security": 1,
+    "src:geom": "flysfo",
+    "src:geom_alt": [
+      "faa"
+    ],
+    "wof:belongsto": [],
+    "wof:breaches": [],
+    "wof:controlled": [
+      "wof:hierarchy"
+    ],
+    "wof:country": "US",
+    "wof:created": 1522881143,
+    "wof:geomhash": "f1c928cffe0e22741a2f33a8570afc1a",
+    "wof:hierarchy": [
+      {
+        "venue_id": 1477855801
+      }
+    ],
+    "wof:id": 1477855801,
+    "wof:label": "E66 (2019)",
+    "wof:lastmodified": 1672878184,
+    "wof:name": "E66",
+    "wof:parent_id": -1,
+    "wof:placetype": "venue",
+    "wof:placetype_alt": [
+      "gate"
+    ],
+    "wof:repo": "sfomuseum-data-architecture",
+    "wof:superseded_by": [
+      1477930403
+    ],
+    "wof:supersedes": [],
+    "wof:tags": []
+  },
+  "bbox": [
+    -122.38426247599995,
+    37.61953130100005,
+    -122.38426247599995,
+    37.61953130100005
+  ],
+  "geometry": {"coordinates":[-122.38426247599995,37.61953130100005],"type":"Point"}
+}

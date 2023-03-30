@@ -1,0 +1,102 @@
+{
+  "id": 1477855945,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2020-05-01",
+    "date:inception_upper": "2020-05-31",
+    "edtf:cessation": "..",
+    "edtf:inception": "2020-~05",
+    "geom:area": 2.1769035985915787e-9,
+    "geom:area_square_m": 0,
+    "geom:bbox": "-122.388076,37.614433,-122.387994,37.614478",
+    "geom:latitude": 37.61445519279513,
+    "geom:longitude": -122.38803563510608,
+    "iso:country": "US",
+    "millsfield:wayfinding_detail": "DEP",
+    "millsfield:wayfinding_kind": "ITB",
+    "millsfield:waypoint_id": [
+      1796935607
+    ],
+    "mz:hierarchy_label": 1,
+    "mz:is_approximate": 1,
+    "mz:is_current": 1,
+    "sfo:level": 3,
+    "sfomuseum:gallery_id": 62,
+    "sfomuseum:is_sfo": 1,
+    "sfomuseum:level": "D",
+    "sfomuseum:location": "AML",
+    "sfomuseum:map_id": "AML 04",
+    "sfomuseum:map_id_alt": "K04",
+    "sfomuseum:placetype": "gallery",
+    "sfomuseum:post_security": 0,
+    "src:geom": "sfomuseum",
+    "wof:belongsto": [
+      102527513,
+      85688637,
+      102191575,
+      85633793,
+      85922583,
+      102087579,
+      554784711,
+      102085387,
+      1729792387,
+      1729813675,
+      1729792579,
+      1729792679
+    ],
+    "wof:breaches": [],
+    "wof:country": "US",
+    "wof:created": 1612561837,
+    "wof:geomhash": "9ece70b73d604e4f6d84675f30394594",
+    "wof:hierarchy": [
+      {
+        "building_id": 1729792387,
+        "campus_id": 102527513,
+        "concourse_id": 1729792679,
+        "continent_id": 102191575,
+        "country_id": 85633793,
+        "county_id": 102087579,
+        "enclosure_id": 1729813737,
+        "locality_id": 85922583,
+        "postalcode_id": 554784711,
+        "region_id": 85688637,
+        "venue_id": 1729813675,
+        "wing_id": 1729792579
+      },
+      {
+        "building_id": 1729792387,
+        "campus_id": 102527513,
+        "concourse_id": 1729792679,
+        "continent_id": 102191575,
+        "country_id": 85633793,
+        "county_id": 102085387,
+        "enclosure_id": 1729813737,
+        "region_id": 85688637,
+        "venue_id": 1729813675,
+        "wing_id": 1729792579
+      }
+    ],
+    "wof:id": 1729813737,
+    "wof:label": "AML Aviation Museum Gallery 04 (2020-~05)",
+    "wof:lastmodified": 1673479444,
+    "wof:name": "AML 04 AML South Interior",
+    "wof:parent_id": 1729813675,
+    "wof:placetype": "enclosure",
+    "wof:placetype_alt": [
+      "gallery"
+    ],
+    "wof:repo": "sfomuseum-data-architecture",
+    "wof:superseded_by": [],
+    "wof:supersedes": [
+      1477855945
+    ],
+    "wof:tags": []
+  },
+  "bbox": [
+    -122.38807634585528,
+    37.6144326418169,
+    -122.38799366035158,
+    37.61447757685055
+  ],
+  "geometry": {"coordinates":[[[-122.38807634585528,37.614460277177706],[-122.38806928733669,37.6144326418169],[-122.38799366035158,37.61445060322586],[-122.38800330279217,37.61447757685055],[-122.38807634585528,37.614460277177706]]],"type":"Polygon"}
+}

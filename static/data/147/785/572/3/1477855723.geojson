@@ -1,0 +1,64 @@
+{
+  "id": 1477855723,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation": "",
+    "edtf:deprecated": "2021-01-29",
+    "edtf:inception": "",
+    "faa:latitude": 37.618778,
+    "faa:longitude": -122.385795,
+    "flysfo:gate_code": "70",
+    "geom:area": 0,
+    "geom:area_square_m": 0,
+    "geom:bbox": "-122.385434,37.618578,-122.385434,37.618578",
+    "geom:latitude": 37.61857827500006,
+    "geom:longitude": -122.38543389699998,
+    "iso:country": "US",
+    "lbl:latitude": 37.618578,
+    "lbl:longitude": -122.385434,
+    "mz:hierarchy_label": 1,
+    "mz:is_current": 0,
+    "sfomuseum:is_sfo": 1,
+    "sfomuseum:placetype": "gate",
+    "sfomuseum:post_security": 1,
+    "src:geom": "flysfo",
+    "src:geom_alt": [
+      "faa"
+    ],
+    "wof:belongsto": [],
+    "wof:breaches": [],
+    "wof:controlled": [
+      "wof:hierarchy"
+    ],
+    "wof:country": "US",
+    "wof:created": 1522881135,
+    "wof:geomhash": "34dc23ecb5c22b23376ecb11e0ce6cf9",
+    "wof:hierarchy": [
+      {
+        "venue_id": 1477855723
+      }
+    ],
+    "wof:id": 1477855723,
+    "wof:label": "F70 (2019)",
+    "wof:lastmodified": 1672878184,
+    "wof:name": "F70",
+    "wof:parent_id": -1,
+    "wof:placetype": "venue",
+    "wof:placetype_alt": [
+      "gate"
+    ],
+    "wof:repo": "sfomuseum-data-architecture",
+    "wof:superseded_by": [
+      1477930381
+    ],
+    "wof:supersedes": [],
+    "wof:tags": []
+  },
+  "bbox": [
+    -122.38543389699998,
+    37.61857827500006,
+    -122.38543389699998,
+    37.61857827500006
+  ],
+  "geometry": {"coordinates":[-122.38543389699998,37.61857827500006],"type":"Point"}
+}

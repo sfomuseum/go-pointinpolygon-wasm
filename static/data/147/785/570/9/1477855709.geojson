@@ -1,0 +1,57 @@
+{
+  "id": 1477855709,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation": "",
+    "edtf:deprecated": "2021-01-29",
+    "edtf:inception": "",
+    "faa:latitude": 37.621378,
+    "faa:longitude": -122.389333,
+    "flysfo:gate_code": "84D",
+    "geom:area": 0,
+    "geom:area_square_m": 0,
+    "geom:bbox": "-122.389333,37.621378,-122.389333,37.621378",
+    "geom:latitude": 37.62137776349693,
+    "geom:longitude": -122.38933315999645,
+    "iso:country": "US",
+    "mz:hierarchy_label": 1,
+    "mz:is_current": 0,
+    "sfomuseum:is_sfo": 1,
+    "sfomuseum:placetype": "gate",
+    "sfomuseum:post_security": 1,
+    "src:geom": "sfomuseum",
+    "wof:belongsto": [],
+    "wof:breaches": [],
+    "wof:controlled": [
+      "wof:hierarchy"
+    ],
+    "wof:country": "US",
+    "wof:created": 1522881132,
+    "wof:geomhash": "79234de2abbff91672b44db836eb6b12",
+    "wof:hierarchy": [
+      {
+        "venue_id": 1477855709
+      }
+    ],
+    "wof:id": 1477855709,
+    "wof:label": "F84D (2019)",
+    "wof:lastmodified": 1672878184,
+    "wof:name": "F84D",
+    "wof:parent_id": -1,
+    "wof:placetype": "venue",
+    "wof:placetype_alt": [
+      "gate"
+    ],
+    "wof:repo": "sfomuseum-data-architecture",
+    "wof:superseded_by": [],
+    "wof:supersedes": [],
+    "wof:tags": []
+  },
+  "bbox": [
+    -122.38933315999645,
+    37.62137776349693,
+    -122.38933315999645,
+    37.62137776349693
+  ],
+  "geometry": {"coordinates":[-122.38933315999645,37.62137776349693],"type":"Point"}
+}

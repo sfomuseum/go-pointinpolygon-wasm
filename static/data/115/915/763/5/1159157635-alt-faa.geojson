@@ -1,0 +1,18 @@
+{
+  "id": 1159157635,
+  "type": "Feature",
+  "properties": {
+    "src:alt_label":"faa",
+    "src:geom":"faa",
+    "wof:geomhash":"0c92928f5d0ca5dc28511eb78d05b121",
+    "wof:id":1159157635,
+    "wof:repo":"sfomuseum-data-architecture"
+},
+  "bbox": [
+    -122.389938,
+    37.612563,
+    -122.389938,
+    37.612563
+],
+  "geometry": {"coordinates":[[-122.389938,37.612563]],"type":"MultiPoint"}
+}

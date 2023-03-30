@@ -1,0 +1,111 @@
+{
+  "id": 1763588531,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2021-11-09",
+    "date:inception_upper": "2021-11-09",
+    "edtf:cessation": "..",
+    "edtf:deprecated": "2023-01-06",
+    "edtf:inception": "2021-11-09",
+    "geom:area": 2.1284664409482965e-8,
+    "geom:area_square_m": 781.898465,
+    "geom:bbox": "-122.388791,37.616826,-122.388272,37.616988",
+    "geom:latitude": 37.616906655659605,
+    "geom:longitude": -122.38853122810366,
+    "iso:country": "US",
+    "millsfield:wayfinding_detail": "F",
+    "millsfield:wayfinding_kind": "T3",
+    "millsfield:waypoint_id": [
+      1796889517
+    ],
+    "mz:hierarchy_label": 1,
+    "mz:is_current": 0,
+    "name:eng_x_preferred": [
+      "F-09 Terminal 3 Connector Arrival Level"
+    ],
+    "name:eng_x_variant": [
+      "F-09",
+      "F09"
+    ],
+    "sfo:level": 2,
+    "sfomuseum:gallery_id": 51,
+    "sfomuseum:is_sfo": 1,
+    "sfomuseum:level": "A",
+    "sfomuseum:location": "T3",
+    "sfomuseum:map_id": "F09",
+    "sfomuseum:placetype": "gallery",
+    "sfomuseum:post_security": 0,
+    "src:geom": "sfo",
+    "wof:belongsto": [
+      102527513,
+      85688637,
+      102191575,
+      85633793,
+      85922583,
+      102087579,
+      554784711,
+      102085387,
+      1763588121,
+      1763588359,
+      1763588269
+    ],
+    "wof:breaches": [],
+    "wof:controlled": [
+      "wof:parent_id",
+      "wof:hierarchy"
+    ],
+    "wof:country": "US",
+    "wof:created": 1650930936,
+    "wof:geomhash": "bc39761938a2a16dfe45eaf408f921da",
+    "wof:hierarchy": [
+      {
+        "building_id": 1763588121,
+        "campus_id": 102527513,
+        "concourse_id": 1763588359,
+        "continent_id": 102191575,
+        "country_id": 85633793,
+        "county_id": 102087579,
+        "enclosure_id": 1763588531,
+        "locality_id": 85922583,
+        "postalcode_id": 554784711,
+        "region_id": 85688637,
+        "wing_id": 1763588269
+      },
+      {
+        "building_id": 1763588121,
+        "campus_id": 102527513,
+        "concourse_id": 1763588359,
+        "continent_id": 102191575,
+        "country_id": 85633793,
+        "county_id": 102085387,
+        "enclosure_id": 1763588531,
+        "region_id": 85688637,
+        "wing_id": 1763588269
+      }
+    ],
+    "wof:id": 1763588531,
+    "wof:label": "F-09 Terminal 3 Connector Arrival Level (2021-11-09)",
+    "wof:lastmodified": 1673474929,
+    "wof:name": "F-09 Terminal 3 Connector Arrival Level",
+    "wof:parent_id": 1763588359,
+    "wof:placetype": "enclosure",
+    "wof:placetype_alt": [
+      "gallery"
+    ],
+    "wof:repo": "sfomuseum-data-architecture",
+    "wof:superseded_by": [
+      1763588537
+    ],
+    "wof:supersedes": [
+      1745882493
+    ],
+    "wof:tags": []
+  },
+  "bbox": [
+    -122.38879057915588,
+    37.6168257689453,
+    -122.38827187705145,
+    37.61698754237391
+  ],
+  "geometry": {"coordinates":[[[-122.38879057915588,37.6168642864283],[-122.38877517216268,37.6168257689453],[-122.38827187705145,37.61694902489091],[-122.38828728404465,37.61698754237391],[-122.38879057915588,37.6168642864283]]],"type":"Polygon"}
+}

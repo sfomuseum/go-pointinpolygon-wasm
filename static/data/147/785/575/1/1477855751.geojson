@@ -1,0 +1,59 @@
+{
+  "id": 1477855751,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation": "",
+    "edtf:deprecated": "2021-01-29",
+    "edtf:inception": "",
+    "faa:latitude": 37.618524,
+    "faa:longitude": -122.388029,
+    "flysfo:gate_code": "73A",
+    "geom:area": 0,
+    "geom:area_square_m": 0,
+    "geom:bbox": "-122.388029,37.618524,-122.388029,37.618524",
+    "geom:latitude": 37.61852428470225,
+    "geom:longitude": -122.38802858470801,
+    "iso:country": "US",
+    "mz:hierarchy_label": 1,
+    "mz:is_current": 0,
+    "sfomuseum:is_sfo": 1,
+    "sfomuseum:placetype": "gate",
+    "sfomuseum:post_security": 1,
+    "src:geom": "sfomuseum",
+    "wof:belongsto": [],
+    "wof:breaches": [],
+    "wof:controlled": [
+      "wof:hierarchy"
+    ],
+    "wof:country": "US",
+    "wof:created": 1522881129,
+    "wof:geomhash": "7abc924c82fa639336bd791e9aa77baf",
+    "wof:hierarchy": [
+      {
+        "venue_id": 1477855751
+      }
+    ],
+    "wof:id": 1477855751,
+    "wof:label": "F73A (2019)",
+    "wof:lastmodified": 1672878184,
+    "wof:name": "F73A",
+    "wof:parent_id": -1,
+    "wof:placetype": "venue",
+    "wof:placetype_alt": [
+      "gate"
+    ],
+    "wof:repo": "sfomuseum-data-architecture",
+    "wof:superseded_by": [
+      1477930413
+    ],
+    "wof:supersedes": [],
+    "wof:tags": []
+  },
+  "bbox": [
+    -122.38802858470801,
+    37.61852428470225,
+    -122.38802858470801,
+    37.61852428470225
+  ],
+  "geometry": {"coordinates":[-122.38802858470801,37.61852428470225],"type":"Point"}
+}

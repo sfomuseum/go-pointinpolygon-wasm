@@ -1,0 +1,64 @@
+{
+  "id": 1477855749,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation": "",
+    "edtf:deprecated": "2021-01-29",
+    "edtf:inception": "",
+    "faa:latitude": 37.620579,
+    "faa:longitude": -122.387853,
+    "flysfo:gate_code": "80",
+    "geom:area": 0,
+    "geom:area_square_m": 0,
+    "geom:bbox": "-122.387813,37.620244,-122.387813,37.620244",
+    "geom:latitude": 37.62024409800006,
+    "geom:longitude": -122.38781264899995,
+    "iso:country": "US",
+    "lbl:latitude": 37.620244,
+    "lbl:longitude": -122.387813,
+    "mz:hierarchy_label": 1,
+    "mz:is_current": 0,
+    "sfomuseum:is_sfo": 1,
+    "sfomuseum:placetype": "gate",
+    "sfomuseum:post_security": 1,
+    "src:geom": "flysfo",
+    "src:geom_alt": [
+      "faa"
+    ],
+    "wof:belongsto": [],
+    "wof:breaches": [],
+    "wof:controlled": [
+      "wof:hierarchy"
+    ],
+    "wof:country": "US",
+    "wof:created": 1522881148,
+    "wof:geomhash": "410eefc59c2c2cb58f7036c623a1319f",
+    "wof:hierarchy": [
+      {
+        "venue_id": 1477855749
+      }
+    ],
+    "wof:id": 1477855749,
+    "wof:label": "F80 (2019)",
+    "wof:lastmodified": 1672878184,
+    "wof:name": "F80",
+    "wof:parent_id": -1,
+    "wof:placetype": "venue",
+    "wof:placetype_alt": [
+      "gate"
+    ],
+    "wof:repo": "sfomuseum-data-architecture",
+    "wof:superseded_by": [
+      1477930433
+    ],
+    "wof:supersedes": [],
+    "wof:tags": []
+  },
+  "bbox": [
+    -122.38781264899995,
+    37.62024409800006,
+    -122.38781264899995,
+    37.62024409800006
+  ],
+  "geometry": {"coordinates":[-122.38781264899995,37.62024409800006],"type":"Point"}
+}

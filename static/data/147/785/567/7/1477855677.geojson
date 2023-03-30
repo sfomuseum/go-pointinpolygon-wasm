@@ -1,0 +1,64 @@
+{
+  "id": 1477855677,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation": "",
+    "edtf:deprecated": "2021-01-29",
+    "edtf:inception": "",
+    "faa:latitude": 37.614561,
+    "faa:longitude": -122.382043,
+    "flysfo:gate_code": "48",
+    "geom:area": 0,
+    "geom:area_square_m": 0,
+    "geom:bbox": "-122.382263,37.614645,-122.382263,37.614645",
+    "geom:latitude": 37.61464453900004,
+    "geom:longitude": -122.38226306999996,
+    "iso:country": "US",
+    "lbl:latitude": 37.614645,
+    "lbl:longitude": -122.382263,
+    "mz:hierarchy_label": 1,
+    "mz:is_current": 0,
+    "sfomuseum:is_sfo": 1,
+    "sfomuseum:placetype": "gate",
+    "sfomuseum:post_security": 1,
+    "src:geom": "flysfo",
+    "src:geom_alt": [
+      "faa"
+    ],
+    "wof:belongsto": [],
+    "wof:breaches": [],
+    "wof:controlled": [
+      "wof:hierarchy"
+    ],
+    "wof:country": "US",
+    "wof:created": 1522881137,
+    "wof:geomhash": "4f5ab35b860c20ada3e42ef3b07338c7",
+    "wof:hierarchy": [
+      {
+        "venue_id": 1477855677
+      }
+    ],
+    "wof:id": 1477855677,
+    "wof:label": "C48 (2019)",
+    "wof:lastmodified": 1672878184,
+    "wof:name": "C48",
+    "wof:parent_id": -1,
+    "wof:placetype": "venue",
+    "wof:placetype_alt": [
+      "gate"
+    ],
+    "wof:repo": "sfomuseum-data-architecture",
+    "wof:superseded_by": [
+      1477930335
+    ],
+    "wof:supersedes": [],
+    "wof:tags": []
+  },
+  "bbox": [
+    -122.38226306999996,
+    37.61464453900004,
+    -122.38226306999996,
+    37.61464453900004
+  ],
+  "geometry": {"coordinates":[-122.38226306999996,37.61464453900004],"type":"Point"}
+}

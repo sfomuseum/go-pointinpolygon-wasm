@@ -7,16 +7,16 @@ import (
 	"io/fs"
 	"log"
 	"time"
-	
-	"github.com/whosonfirst/go-whosonfirst-feature/geometry"
+
 	"github.com/whosonfirst/go-ioutil"
+	"github.com/whosonfirst/go-whosonfirst-feature/geometry"
 	"github.com/whosonfirst/go-whosonfirst-spatial/database"
 )
 
 func NewSpatialDatabase(ctx context.Context, spatial_database_uri string, spatial_database_fs fs.FS) (database.SpatialDatabase, error) {
 
 	log.Println("Create new database")
-	
+
 	db, err := database.NewSpatialDatabase(ctx, spatial_database_uri)
 
 	if err != nil {
@@ -27,12 +27,10 @@ func NewSpatialDatabase(ctx context.Context, spatial_database_uri string, spatia
 
 		t1 := time.Now()
 
-		defer func(){
+		defer func() {
 			log.Printf("Time to index %s, %v\n", path, time.Since(t1))
 		}()
-		
-		log.Printf("Index %s\n", path)
-		
+
 		body, err := io.ReadAll(r)
 
 		if err != nil {
@@ -63,12 +61,10 @@ func NewSpatialDatabase(ctx context.Context, spatial_database_uri string, spatia
 
 	walk_func := func(path string, d fs.DirEntry, err error) error {
 
-		log.Printf("Path %s\n", path)
-
-		if d.IsDir(){
+		if d.IsDir() {
 			return nil
 		}
-		
+
 		r, err := spatial_database_fs.Open(path)
 
 		if err != nil {
@@ -85,12 +81,18 @@ func NewSpatialDatabase(ctx context.Context, spatial_database_uri string, spatia
 
 		return iter_cb(ctx, path, rsc)
 	}
-	
-	err = fs.WalkDir(spatial_database_fs, "data", walk_func)	
+
+	t1 := time.Now()
+
+	defer func() {
+		log.Printf("Time to index data, %v\n", time.Since(t1))
+	}()
+
+	err = fs.WalkDir(spatial_database_fs, "data", walk_func)
 
 	if err != nil {
 		return nil, fmt.Errorf("Failed to walk data, %w", err)
 	}
-		
+
 	return db, nil
 }

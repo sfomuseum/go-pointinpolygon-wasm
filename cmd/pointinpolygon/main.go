@@ -29,7 +29,7 @@ func main() {
 
 	c := make(chan struct{}, 0)
 
-	log.Println("Point in polygon binary initialized")
+	log.Printf("Point in polygon binary initialized")
 	<-c
 
 }

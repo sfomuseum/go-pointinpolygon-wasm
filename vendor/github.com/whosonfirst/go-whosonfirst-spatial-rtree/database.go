@@ -328,7 +328,7 @@ func (r *RTreeSpatialDatabase) PointInPolygon(ctx context.Context, coord *orb.Po
 
 	go r.PointInPolygonWithChannels(ctx, rsp_ch, err_ch, done_ch, coord, filters...)
 
-	for {		
+	for {
 		select {
 		case <-ctx.Done():
 			return nil, nil
@@ -340,9 +340,6 @@ func (r *RTreeSpatialDatabase) PointInPolygon(ctx context.Context, coord *orb.Po
 			return nil, err
 		}
 
-		// Note that a "default" block seems to cause WASM to spin forever
-		// I don't know why...
-		
 		if !working {
 			break
 		}
@@ -396,8 +393,6 @@ func (r *RTreeSpatialDatabase) PointInPolygonCandidates(ctx context.Context, coo
 			candidates = append(candidates, rsp)
 		case err := <-err_ch:
 			return nil, err
-		default:
-			// pass
 		}
 
 		if !working {

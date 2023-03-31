@@ -21,8 +21,10 @@ github.com/golang/snappy v0.0.1/go.mod h1:/XxbfmMg8lxefKM7IXC3fBNl/7bRcc72aCRzEW
 github.com/google/go-cmp v0.5.2/go.mod h1:v8dTdLbMG2kIc/vJvl+f65V22dbkXbowE6jgT/gNBxE=
 github.com/google/go-cmp v0.5.5 h1:Khx7svrCpmxxtHBq5j2mp/xVjsi8hQMfNLvJFAlrGgU=
 github.com/google/go-cmp v0.5.5/go.mod h1:v8dTdLbMG2kIc/vJvl+f65V22dbkXbowE6jgT/gNBxE=
+github.com/hashicorp/errwrap v0.0.0-20141028054710-7554cd9344ce/go.mod h1:YH+1FKiLXxHSkmPseP+kNlulaMuP3n2brvKWEqk/Jc4=
 github.com/hashicorp/errwrap v1.0.0 h1:hLrqtEDnRye3+sgx6z4qVLNuviH3MR5aQ0ykNJa/UYA=
 github.com/hashicorp/errwrap v1.0.0/go.mod h1:YH+1FKiLXxHSkmPseP+kNlulaMuP3n2brvKWEqk/Jc4=
+github.com/hashicorp/go-multierror v0.0.0-20171204182908-b7773ae21874/go.mod h1:JMRHfdO9jKNzS/+BTlxCjKNQHg/jZAft8U7LloJvN7I=
 github.com/hashicorp/go-multierror v1.1.1 h1:H5DkEtf6CXdFp0N0Em5UCwQpXMWke8IA0+lD48awMYo=
 github.com/hashicorp/go-multierror v1.1.1/go.mod h1:iw975J/qwKPdAO1clOe2L8331t/9/fmwbPZ6JB6eMoM=
 github.com/kisielk/errcheck v1.5.0/go.mod h1:pFxgyoBC7bSaBwPgfKdkLd5X25qrDl4LWUI2bnpBCr8=
@@ -39,6 +41,7 @@ github.com/patrickmn/go-cache v2.1.0+incompatible/go.mod h1:3Qf8kWWT7OJRJbdiICTK
 github.com/paulmach/orb v0.9.0 h1:MwA1DqOKtvCgm7u9RZ/pnYejTeDJPnr0+0oFajBbJqk=
 github.com/paulmach/orb v0.9.0/go.mod h1:SudmOk85SXtmXAB3sLGyJ6tZy/8pdfrV0o6ef98Xc30=
 github.com/paulmach/protoscan v0.2.1/go.mod h1:SpcSwydNLrxUGSDvXvO0P7g7AuhJ7lcKfDlhJCDw2gY=
+github.com/pkg/errors v0.8.0/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
 github.com/pkg/errors v0.9.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
@@ -48,9 +51,13 @@ github.com/sfomuseum/go-flags v0.10.0 h1:1OC1ACxpWMsl3XQ9OeNVMQj7Zi2CzufP3Rym3mP
 github.com/sfomuseum/go-flags v0.10.0/go.mod h1:VXOnnX1/yxQpX2yiwHaBV6aCmhtszQOL5bL1/nNo3co=
 github.com/sfomuseum/go-http-wasm v1.2.0 h1:P452JeWZXTP2wcZuX6W/yF54izusxP9Wt4u4f80/u7I=
 github.com/sfomuseum/go-http-wasm v1.2.0/go.mod h1:/4+K3vkIwCR/XkEyw03eIZkT2cw9YWdZyMMcbObLqC4=
+github.com/sfomuseum/go-timings v1.2.1 h1:AthtFBMBYN+kUflQUp9FFBZVHsR9KB/GkMvO1DuEYEE=
+github.com/sfomuseum/go-timings v1.2.1/go.mod h1:jZrCwV4uoY5s4sOZWZLn6xQ2LhsMy2ZvdB3tzLPO76c=
+github.com/sfomuseum/iso8601duration v1.1.0 h1:kMYzbamrZp9dRxi5iFuhjl5CzHXK6s6Bzz/c75wsq8Q=
+github.com/sfomuseum/iso8601duration v1.1.0/go.mod h1:6EenGWM7y8uVquMPEZwoR+ihpIMJluw7iYiHhDTuOAk=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
-github.com/stretchr/testify v1.6.1 h1:hDPOHmpOpP40lSULcqw7IrRb/u7w6RpDC9399XyoNd0=
 github.com/stretchr/testify v1.6.1/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/h/Wwjteg=
+github.com/stretchr/testify v1.8.0 h1:pSgiaMZlXftHpm5L7V1+rVB+AZJydKsMxsQBIJw4PKk=
 github.com/tidwall/gjson v1.14.2/go.mod h1:/wbyibRr2FHMks5tjHJ5F8dMZh3AcwJEMf5vlfC0lxk=
 github.com/tidwall/gjson v1.14.4 h1:uo0p8EbA09J7RQaflQ1aBRffTR7xedD2bcIVSYxLnkM=
 github.com/tidwall/gjson v1.14.4/go.mod h1:/wbyibRr2FHMks5tjHJ5F8dMZh3AcwJEMf5vlfC0lxk=
@@ -81,6 +88,8 @@ github.com/whosonfirst/go-whosonfirst-sources v0.1.0 h1:JuKLa6KWke22jBfJ1pM9WQHo
 github.com/whosonfirst/go-whosonfirst-sources v0.1.0/go.mod h1:EUMHyGzUmqPPxlMmOp+28BFeoBdxxE0HCKRd67lkqGM=
 github.com/whosonfirst/go-whosonfirst-spatial v0.5.6 h1:mFvkF+5qvfBauLqixiWwHX76lb0ohsvJMUnjXm+Gryo=
 github.com/whosonfirst/go-whosonfirst-spatial v0.5.6/go.mod h1:pCh4lz9GFexj865PV4/Txkjd/kdAJiyx9U2eBJ49DJk=
+github.com/whosonfirst/go-whosonfirst-spatial-pip v0.3.2 h1:WHBQiSTC7/pWyaqWrpHqaq1yN7YsJU+Y5kCXYNntSnc=
+github.com/whosonfirst/go-whosonfirst-spatial-pip v0.3.2/go.mod h1:Nxk/JAeLMgcPd6xEfmUKWCHBGWTrxwfnDqEcWYpng70=
 github.com/whosonfirst/go-whosonfirst-spatial-rtree v0.2.5 h1:dNLqa813ux79EsCjdKq76cmwGof8b2sRzxLDTA3e7gA=
 github.com/whosonfirst/go-whosonfirst-spatial-rtree v0.2.5/go.mod h1:jt21iavvuVlboRadrN7fMy21Q/MiBIZELc5Vctf1DiQ=
 github.com/whosonfirst/go-whosonfirst-spr/v2 v2.3.5 h1:3e6A0irI6fOt5Wig9J+QXKRjU/V+P5WUK7ftSdG9+zw=
@@ -91,6 +100,8 @@ github.com/whosonfirst/go-writer/v3 v3.1.0 h1:lEZ6TIYvZb5NJ6e2OXYRM1j+MM2svKCSlb
 github.com/whosonfirst/go-writer/v3 v3.1.0/go.mod h1:TmYoKR7RvrzJaj3eOgMhgXHFE+R1yuO/4smxKHFhv14=
 github.com/whosonfirst/walk v0.0.2 h1:fA0xskpnorC8OTvA1IKVOwQ12joCW6R5k2+/qd9lS7k=
 github.com/whosonfirst/walk v0.0.2/go.mod h1:HvRa/XX8jGtggvwAFMWMMuNy1M3+ZDqDX2hxiGR9b2o=
+github.com/whosonfirst/warning v0.1.1 h1:h29zL3VNL9VUHztkAAndzblhrDHyik9z47OuUR2Vovw=
+github.com/whosonfirst/warning v0.1.1/go.mod h1:/unEMzhB9YaMeEwTJpzLN3kM5LiSxdJhKEsf/OQhn6s=
 github.com/xdg-go/pbkdf2 v1.0.0/go.mod h1:jrpuAogTd400dnrH08LKmI/xc1MbPOebTwRqcT5RDeI=
 github.com/xdg-go/scram v1.1.1/go.mod h1:RaEWvsqvNKKvBPvcKeFjrG2cJqOkHTiyTpzz23ni57g=
 github.com/xdg-go/stringprep v1.0.3/go.mod h1:W3f5j4i+9rC0kuIEJL0ky1VpHXQU3ocBgklLGvcBnW8=

@@ -7,6 +7,7 @@ require (
 	github.com/whosonfirst/go-ioutil v1.0.2
 	github.com/whosonfirst/go-whosonfirst-feature v0.0.26
 	github.com/whosonfirst/go-whosonfirst-spatial v0.5.6
+	github.com/whosonfirst/go-whosonfirst-spatial-pip v0.3.2
 	github.com/whosonfirst/go-whosonfirst-spatial-rtree v0.2.5
 )
 
@@ -25,6 +26,8 @@ require (
 	github.com/paulmach/orb v0.9.0 // indirect
 	github.com/sfomuseum/go-edtf v1.1.1 // indirect
 	github.com/sfomuseum/go-flags v0.10.0 // indirect
+	github.com/sfomuseum/go-timings v1.2.1 // indirect
+	github.com/sfomuseum/iso8601duration v1.1.0 // indirect
 	github.com/tidwall/gjson v1.14.4 // indirect
 	github.com/tidwall/match v1.1.1 // indirect
 	github.com/tidwall/pretty v1.2.0 // indirect
@@ -40,6 +43,7 @@ require (
 	github.com/whosonfirst/go-whosonfirst-uri v1.3.0 // indirect
 	github.com/whosonfirst/go-writer/v3 v3.1.0 // indirect
 	github.com/whosonfirst/walk v0.0.2 // indirect
+	github.com/whosonfirst/warning v0.1.1 // indirect
 	go.mongodb.org/mongo-driver v1.11.1 // indirect
 	golang.org/x/net v0.8.0 // indirect
 )

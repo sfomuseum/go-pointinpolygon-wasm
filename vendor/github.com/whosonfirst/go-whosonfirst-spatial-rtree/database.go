@@ -316,29 +316,19 @@ func (r *RTreeSpatialDatabase) RemoveFeature(ctx context.Context, id string) err
 
 func (r *RTreeSpatialDatabase) PointInPolygon(ctx context.Context, coord *orb.Point, filters ...spatial.Filter) (spr.StandardPlacesResults, error) {
 
-	log.Println("PIP YEAH")
-	
 	ctx, cancel := context.WithCancel(ctx)
 	defer cancel()
 
-	log.Println("OKAY CANCEL")
-	
 	rsp_ch := make(chan spr.StandardPlacesResult)
 	err_ch := make(chan error)
 	done_ch := make(chan bool)
 
-	log.Println("CHANNELS")
-	
 	results := make([]spr.StandardPlacesResult, 0)
 	working := true
 
-	log.Println("GO W/ CHANNELS")
-	
 	go r.PointInPolygonWithChannels(ctx, rsp_ch, err_ch, done_ch, coord, filters...)
 
-	log.Println("WAIUTING")
-	
-	for {
+	for {		
 		select {
 		case <-ctx.Done():
 			return nil, nil
@@ -348,11 +338,11 @@ func (r *RTreeSpatialDatabase) PointInPolygon(ctx context.Context, coord *orb.Po
 			results = append(results, rsp)
 		case err := <-err_ch:
 			return nil, err
-		default:
-			log.Println("WUT")
-			// pass
 		}
 
+		// Note that a "default" block seems to cause WASM to spin forever
+		// I don't know why...
+		
 		if !working {
 			break
 		}

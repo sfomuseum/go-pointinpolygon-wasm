@@ -94,9 +94,6 @@ github.com/whosonfirst/go-whosonfirst-flags/date
 github.com/whosonfirst/go-whosonfirst-flags/existential
 github.com/whosonfirst/go-whosonfirst-flags/geometry
 github.com/whosonfirst/go-whosonfirst-flags/placetypes
-# github.com/whosonfirst/go-whosonfirst-iterate-fs/v2 v2.0.0
-## explicit; go 1.18
-github.com/whosonfirst/go-whosonfirst-iterate-fs/v2
 # github.com/whosonfirst/go-whosonfirst-iterate/v2 v2.3.2
 ## explicit; go 1.18
 github.com/whosonfirst/go-whosonfirst-iterate/v2/emitter

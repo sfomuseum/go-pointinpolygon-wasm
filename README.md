@@ -36,7 +36,7 @@ It will take about 5-10 seconds for all the data to be indexed.
 
 ![](docs/images/go-pointinpolygon-wasm-onload.png)
 
-Once the data is loaded the webpage will load a map and perform an initial point-in-polygon query for the point at the map's center point. This will return the record for San Francisco International Airport campus. The can see the JSON-encoded results for the query displayed on the right.
+Once the data is loaded the webpage will load a map and perform an initial point-in-polygon query for the point at the map's center point. This will return the record for San Francisco International Airport campus. You can see the JSON-encoded results for the query displayed on the right.
 
 ![](docs/images/go-pointinpolygon-wasm-features.png)
 

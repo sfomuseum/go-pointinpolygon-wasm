@@ -14,7 +14,7 @@ _If you're not sure what the words "point-in-polygon-enabled Protomaps database"
 
 The next best option would be to use one of the Go SQLite databases but they are depend on loading databases from an actual filesystem and don't support Go's in-memory embedded filesystems. And WASM has no concept of a filesystem so the whole thing starts to feel a bit absurd.
 
-So, instead this code builds an in-memory RTree spatial index which is populated from data stored in the in-memory embedded filesystems. And it works. And doesn't even take _too_ long.
+So, instead this code builds [an in-memory RTree spatial index](https://github.com/whosonfirst/go-whosonfirst-spatial-rtree) which is populated from data stored in the in-memory embedded filesystem. And it works. And doesn't even take _too_ long.
 
 But it is absolutely not the most efficient way to do things. At least not yet. Regardless it is interesting to think about bundling both data and discrete functionality (for example, point-in-polygon operations) in a single WebAssembly binary which could be useful going forward.
 

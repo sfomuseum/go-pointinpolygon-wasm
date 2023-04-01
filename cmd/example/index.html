@@ -4,36 +4,21 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>go-whosonfirst-placetypes-wasm</title>
-    <link rel="stylesheet" type="text/css" href="example.css" />
-    <script type="text/javascript" src="example.init.js"></script>
-    <!-- remember that other javascript files (including wasm_exec.js are appended at runtime by Go middleware -->
+    <title>go-pointinpolygon-wasm</title>
+    <link rel="stylesheet" type="text/css" href="css/leaflet.css" />
+    <link rel="stylesheet" type="text/css" href="css/leaflet.crosshairs.control.css" />        
+    <link rel="stylesheet" type="text/css" href="css/example.css" />
+    <script type="text/javascript" src="javascript/leaflet.js"></script>
+    <script type="text/javascript" src="javascript/leaflet.crosshairs.control.js"></script>        
+    <script type="text/javascript" src="javascript/example.init.js"></script>
   </head>
 
   <body>
-      <div id="container">
-	  <div>
-	      <h3>Placetypes</h3>
-	      <select id="placetypes">
-		  <option />
-	      </select>
+      <div id="grid">
+	  <div id="map"></div>
+	  <div id="result">
+	      Loading point-in-polygon data.
 	  </div>
-	  <div>
-	      <h3>Ancestors</h3>
-	      <ul id="ancestors"></ul>
-	  </div>
-	  <div>
-	      <h3>Parents</h3>
-	      <ul id="parents"></ul>
-	  </div>	  
-	  <div>
-	      <h3>Descendants</h3>
-	      <ul id="descendants"></ul>
-	  </div>
-	  <div>
-	      <h3>Children</h3>
-	      <ul id="children"></ul>
-	  </div>	  
       </div>
   </body>
 </html>

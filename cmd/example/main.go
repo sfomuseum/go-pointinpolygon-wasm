@@ -10,7 +10,7 @@ import (
 	"github.com/sfomuseum/go-http-wasm"
 )
 
-//go:embed index.html example.* sfomuseum_pointinpolygon.wasm
+//go:embed index.html css/*.css javascript/*.js wasm/*.wasm
 var FS embed.FS
 
 func main() {
@@ -22,16 +22,17 @@ func main() {
 
 	mux := http.NewServeMux()
 
-	http_fs := http.FS(FS)
-	example_handler := http.FileServer(http_fs)
-
+	wasm_opts := wasm.DefaultWASMOptions()
+	
 	err := wasm.AppendAssetHandlers(mux)
 
 	if err != nil {
 		log.Fatalf("Failed to append wasm assets handler, %v", err)
 	}
 
-	wasm_opts := wasm.DefaultWASMOptions()
+	http_fs := http.FS(FS)
+	example_handler := http.FileServer(http_fs)
+
 	example_handler = wasm.AppendResourcesHandler(example_handler, wasm_opts)
 
 	mux.Handle("/", example_handler)

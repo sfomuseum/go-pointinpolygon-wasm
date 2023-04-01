@@ -4,7 +4,7 @@ Experimental work to embed a `whosonfirst/go-whosonfirst-spatial/database.Spatia
 
 ## Motivation
 
-The first thing to understand is that this work is _experimental_. The second thing to understand is that, as written, it is both slower and significantly larger than alternative approaches.
+The first thing to understand is that this work is _experimental_. The second thing to understand is that, as written, it is both slower and significantly larger than alternative approaches. Like, absurdly so.
 
 Specifically, the WASM binary produced by this code is 19MB. There are a few reasons for this. First, the code used to build the WASM binary has not been optimized for size. Second, the binary bundles also all the data contained in the [sfomuseum-data/sfomuseum-data-architecture](https://github.com/sfomuseum-data/sfomuseum-data-architecture) repository rather than a canned index (or at least input data that has been pruned of unnecessary properties).
 
@@ -16,7 +16,7 @@ The next best option would be to use one of the Go SQLite databases but they are
 
 So, instead this code builds an in-memory RTree spatial index which is populated from data stored in the in-memory embedded filesystems. And it works. And doesn't even take _too_ long.
 
-But it is absolutely not the most efficient way to do things. At least not yet.
+But it is absolutely not the most efficient way to do things. At least not yet. Regardless it is interesting to think about bundling both data and discrete functionality (for example, point-in-polygon operations) in a single WebAssembly binary which could be useful going forward.
 
 ## Example
 
@@ -32,7 +32,7 @@ The when you open `http://localhost:8080` in a browser you'll see something like
 
 ![](docs/images/go-pointinpolygon-wasm-init.png)
 
-It will take about 5 seconds for all the data to be indexed.
+It will take about 5-10 seconds for all the data to be indexed.
 
 ![](docs/images/go-pointinpolygon-wasm-onload.png)
 
